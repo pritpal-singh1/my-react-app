@@ -1,7 +1,16 @@
+import HeaderContent from './components/headerContent';
+import SearchContainer from './components/SearchContainer';
+import DrugCardComponent from './components/DrugCardComponent.jsx';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <HeaderContent />
+      <SearchContainer />
+      <div className="drug-cards-container">
+        <DrugCardComponent />
+      </div>
     </div>
   );
 }

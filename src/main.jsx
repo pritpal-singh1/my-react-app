@@ -1,12 +1,11 @@
-import { createRoot } from 'react-dom/client'
-const myElement =(<ul>
-    <li>Apples</li>
-    <li>Bananas</li>
-    <li>Cherries</li>
-  </ul>
-)
-
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import './index.css';
+import './App.css';
 
 createRoot(document.getElementById('root')).render(
-myElement
-)  
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

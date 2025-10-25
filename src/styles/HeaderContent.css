@@ -1,0 +1,17 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  background-color: rgb(16, 107, 107);
+}
+.nav-links{
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+.logo{
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

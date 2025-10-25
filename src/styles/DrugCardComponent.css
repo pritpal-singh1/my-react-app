@@ -1,0 +1,97 @@
+.drug-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    justify-content: center;
+}
+
+.drug-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.drug-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.drug-card-header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.drug-card-header h2 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+.generic-name {
+    color: #666;
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}
+
+.drug-info {
+    margin-bottom: 16px;
+}
+
+.drug-info p {
+    margin: 8px 0;
+    color: #444;
+}
+
+.drug-info strong {
+    color: #2c3e50;
+}
+
+.drug-description {
+    margin-bottom: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.side-effects {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.side-effects ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 8px 0 0 0;
+}
+
+.side-effects li {
+    padding: 4px 0;
+    color: #666;
+}
+
+.side-effects li:before {
+    content: "•";
+    color: #3498db;
+    margin-right: 8px;
+}
+
+.drug-price {
+    text-align: right;
+    margin-top: 16px;
+}
+
+.price-tag {
+    background: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
